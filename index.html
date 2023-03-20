@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Pokedex</h1>
+        <div class="generations-container">
+            <button class="generations generation1">Gen 1</button>
+            <button class="generations generation2">Gen 2</button>
+            <button class="generations generation3">Gen 3</button>
+            <button class="generations generation4">Gen 4</button>
+            <button class="generations generation5">Gen 5</button>
+            <button class="generations generation6">Gen 6</button>
+            <button class="generations generation7">Gen 7</button>
+            <button class="generations generation8">Gen 8</button>
+            <button class="generations generation9">Gen 9</button>
+    
+    
+        </div>
+        <form>
+            <label for="search">Search pokemon</label>
+            <input type="text" id="search" name="search" placeholder="enter character name">
+            <button class="pokedex-search-button" type="submit">search</button>
+        </form>
+        <div class="result-card-container">
+            <div class="result-card"><img class="result-image" src="" alt="pokemon">
+                <span class="result-generation"></span>
+    
+                <div>
+                    <p class="result-character"></p>
+                    <p class="result-character-id"></p>
+                    <div class="result-type-container">
+    
+                        <span class="result-type"></span>
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+    
+        </div>
+        <div class="cards-container">
+    
+            
+    
+        </div>
+    
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

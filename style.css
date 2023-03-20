@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+main{
+    margin: 1rem;
+
+}
+
+.generations-container{
+    margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    text-align: center;
+}
+form input{
+    border-radius: 15px;
+}
+#search, .generations{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.generations{
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+
+.result-card{
+    margin: auto;
+    padding: 2rem;
+    position: relative;
+    width: 220px;
+    height: auto;
+    background-color: #1f1f1f;
+    margin: auto;
+    border-radius: 1rem;
+    display: none;
+
+}
+.result-card.visible{
+    display: block;
+    padding: 2rem;
+    position: relative;
+    width: 220px;
+    height: auto;
+    background-color: #1f1f1f;
+    margin: auto;
+    border-radius: 1rem;
+    display: block;
+
+}
+
+.pokemonCard{
+    padding: 2rem;
+    position: relative;
+    width: 220px;
+    height: auto;
+    background-color: #1f1f1f;
+    margin: auto;
+    border-radius: 1rem;
+
+}
+
+.pokemonCharacter, .thePokemonType, .pokemonCharacterId{
+    text-align: center;
+    padding: 0.5rem;
+    display: block;
+}
+.thePokemonType, .pokemonGeneration, .pokemonCharacter, .pokemonCharacterId{
+    color: #fff;
+}
+.pokemonGeneration{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border-radius: 50%;
+    background-color: green;
+    padding: 0.5rem;
+
+}
+
+
+.result-character, .result-character-id, .result-type{
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+.cards-container img, .result-image{
+    margin: auto;
+    display: block;
+    padding: 2rem;
+    width: 140px;
+    height: 140px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+
+}
+
+.result-generation{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border-radius: 50%;
+    background-color: green;
+    padding: 0.5rem;
+
+}
+
+.result-character, .result-character-id, .result-generation, .result-type{
+    color: #fff;
+}
+
+.types-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theDiv{
+    font-size: 24px;
+}
+
+.pokedex-search-button{
+    background-color: #1f1f1f;
+    padding: 0.7rem;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0.4rem;
+}
