@@ -12,4 +12,7 @@
 
 - Each pokemon character is displayed with generation number, index number and types
 
+### Screenshot
+![pokedex screenshot](pokedex.png "pokedex screenshot").
+
 View it: [pokedex](https://aces563.github.io/pokedex/).
