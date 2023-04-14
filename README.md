@@ -15,4 +15,4 @@
 ### Screenshot
 ![pokedex screenshot](pokedex.png "pokedex screenshot").
 
-View it: [pokedex](https://aces563.github.io/pokedex/).
+View it: [pokedex](https://stacknatic.github.io/pokedex/).
